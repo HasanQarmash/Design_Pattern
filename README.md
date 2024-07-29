@@ -39,6 +39,8 @@ By understanding and applying these patterns, developers can create more robust,
 # Creational Patterns
 Creational design patterns provide solutions to instantiate an object in the best possible way for specific situations.
 
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://s3.amazonaws.com/media-p.slid.es/uploads/2772005/images/11497754/pasted-from-clipboard.png)
+
 ## Singleton Pattern
 Ensure a class has only one instance and provide a global point of access to it.
 ```java
@@ -86,6 +88,5 @@ If you are not using multiple threads and only the main thread is involved in cr
 
 ```
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://s3.amazonaws.com/media-p.slid.es/uploads/2772005/images/11497754/pasted-from-clipboard.png)
 
 
