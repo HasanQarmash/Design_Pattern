@@ -5,8 +5,8 @@ Software design patterns are essential tools for developers, encountered during 
 By understanding and applying these patterns, developers can create more robust, maintainable, and scalable software systems.. Design patterns can be categorized into three main types: Creational, Structural, and Behavioral patterns.
 
 > [!NOTE]
-> Design pattern providing proven solutions to common problems
-> Using design patterns too frequently can lead to several disadvantages like  Reduced Readability ,  patterns that involve multiple classes or interfaces can increase memory usage and processing time and antoher disadvantegs.
+> - Design pattern providing proven solutions to common problems
+> - Using design patterns too frequently can lead to several disadvantages like  Reduced Readability ,  patterns that involve multiple classes or interfaces can increase memory usage and processing time and antoher disadvantegs.
 
 ## Table of Contents
 1. [Creational Patterns](#creational-patterns)
