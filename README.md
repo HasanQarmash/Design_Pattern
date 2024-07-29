@@ -60,3 +60,32 @@ Builder is a creational design pattern that lets you construct complex objects s
 
 If you are not using multiple threads and only the main thread is involved in creating objects, the primary benefit of the Builder Pattern shifts from avoiding inconsistent state due to concurrent modifications to providing a clean and flexible way to construct complex objects. The Builder Pattern helps in managing the construction process of objects with many optional parameters, making the code more readable, maintainable, and scalable.
 ### Problem  
+``` java 
+// Creating a house with all attributes
+//without builder design pattern
+        House house = new House(4, 2, "Gable", true, false);
+//with builder design pattern
+   // Creating a house with all attributes using builder pattern
+        House house = new House.HouseBuilder()
+                .setWindows(4)
+                .setDoors(2)
+                .setRoof("Gable")
+                .setGarage(true)
+                .setSwimmingPool(false)
+                .build();
+        System.out.println(house);
+
+        // Creating a house with only some attributes using builder pattern
+        House simpleHouse = new House.HouseBuilder()
+                .setWindows(2)
+                .setRoof("Flat")
+                .build();
+        System.out.println(simpleHouse);
+    }
+}
+
+```
+
+
+
+
