@@ -1,6 +1,6 @@
 # Design Patterns in Java by Hasan Qarmash
 
-## Introduction
+# Introduction
 Software design patterns are essential tools for developers, encountered during software development.
 By understanding and applying these patterns, developers can create more robust, maintainable, and scalable software systems.. Design patterns can be categorized into three main types: Creational, Structural, and Behavioral patterns.
 
@@ -8,7 +8,7 @@ By understanding and applying these patterns, developers can create more robust,
 > - Design pattern providing proven solutions to common problems
 > - Using design patterns too frequently can lead to several disadvantages like  Reduced Readability ,  patterns that involve multiple classes or interfaces can increase memory usage and processing time and antoher disadvantegs.
 
-## Table of Contents
+# Table of Contents
 1. [Creational Patterns](#creational-patterns)
     - [Singleton Pattern](#singleton-pattern)
     - [Factory Method Pattern](#factory-method-pattern)
@@ -36,10 +36,10 @@ By understanding and applying these patterns, developers can create more robust,
     - [Template Method Pattern](#template-method-pattern)
     - [Visitor Pattern](#visitor-pattern)
 
-## Creational Patterns
+# Creational Patterns
 Creational design patterns provide solutions to instantiate an object in the best possible way for specific situations.
 
-### Singleton Pattern
+## Singleton Pattern
 Ensure a class has only one instance and provide a global point of access to it.
 ```java
 public class Singleton {
@@ -55,3 +55,8 @@ public class Singleton {
     }
 }
 ```
+## Builder Pattern 
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+If you are not using multiple threads and only the main thread is involved in creating objects, the primary benefit of the Builder Pattern shifts from avoiding inconsistent state due to concurrent modifications to providing a clean and flexible way to construct complex objects. The Builder Pattern helps in managing the construction process of objects with many optional parameters, making the code more readable, maintainable, and scalable.
+### Problem  
