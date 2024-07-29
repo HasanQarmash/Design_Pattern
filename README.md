@@ -86,6 +86,6 @@ If you are not using multiple threads and only the main thread is involved in cr
 
 ```
 
-
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://s3.amazonaws.com/media-p.slid.es/uploads/2772005/images/11497754/pasted-from-clipboard.png)
 
 
