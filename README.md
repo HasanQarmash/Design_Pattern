@@ -1,11 +1,11 @@
 # Design Patterns in Java by Hasan Qarmash
 
 ## Introduction
-Software design patterns are essential tools for developers,> encountered during software development.
+Software design patterns are essential tools for developers, encountered during software development.
 By understanding and applying these patterns, developers can create more robust, maintainable, and scalable software systems.. Design patterns can be categorized into three main types: Creational, Structural, and Behavioral patterns.
 
- [!IMPORTANT]
-> providing proven solutions to common problems
+> [!IMPORTANT]
+>  providing proven solutions to common problems
 
 ## Table of Contents
 1. [Creational Patterns](#creational-patterns)
