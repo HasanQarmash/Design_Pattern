@@ -66,6 +66,7 @@ Builder is a creational design pattern that lets you construct complex objects s
 
 If you are not using multiple threads and only the main thread is involved in creating objects, the primary benefit of the Builder Pattern shifts from avoiding inconsistent state due to concurrent modifications to providing a clean and flexible way to construct complex objects. The Builder Pattern helps in managing the construction process of objects with many optional parameters, making the code more readable, maintainable, and scalable.
 ### Problem  
+
 ``` java 
 // Creating a house with all attributes
 //without builder design pattern
@@ -93,6 +94,18 @@ If you are not using multiple threads and only the main thread is involved in cr
 ```
  new House(4, 2, "Gable", true, false);
  This constructer is not clear if I want to modify it I cannot do so easily because I do not understand what these values ​​return to such as 2 and 4, but when I used builder  I became able to understand what these values ​​return to because I entered them via set/get methods 
+ ### another problem 
+   When constructing complex objects that require step-by-step initialization of many fields and nested objects, the initialization code often becomes cumbersome and difficult to manage. There are two common approaches to handle this:
+
+1. Subclass Proliferation: Creating numerous subclasses to represent different combinations of parameters. This leads to:
+
+ * A large number of subclasses.
+ * Difficulty in maintaining and extending the class hierarchy.
+2. Monstrous Constructor: Using a single, giant constructor in the base class with all possible parameters. This results in:
+
+ * Constructor calls becoming unwieldy and hard to read.
+ * Most parameters being unused in many cases, making the code less clean and maintainable.
+These approaches can lead to significant issues in terms of code readability, maintainability, and scalability.
 
  # Structural Patterns 
 
